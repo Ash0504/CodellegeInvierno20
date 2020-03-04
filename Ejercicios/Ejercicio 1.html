@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-MX" dir="ltr">
+    <!--La cabeza de la pagina-->
+    <head>
+        <title>Ejercicio_1</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: khaki;
+                font-family: 'Bell MT';
+                font-size: x-large;
+            }
+        </style>
+    <head>
+    <!--El cuerpo de la pagina-->
+    <body>
+        <form>
+        <!--La tabla de la pagina-->
+        <!--Usar label para IMPORTANTE-->
+            <table class="ej1">
+                <tr>
+                    <th colspan="2"><center><h1>Formulario de Registro</h1></center></th>
+                <tr>
+                    <td> <label for="Folio">Folio: </label></td>
+                    <td> <input id="Folio" type="text" minlength="5" maxlength="12" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Contraseña">Contraseña: </label></td>
+                    <td><input id="Contraseña" type="password" minlength="5" maxlength="12" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Nombre">Nombre: </label></td>
+                    <td><input id="Nombre" type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Direccion">Direccion</label></td>
+                    <td><input id="Direccion" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Pais:</td>
+                    <td>
+                        <select name="Pais" required>
+                            <option value="Mexico">Mexico</option> 
+                            <option value="Canada">Canada</option> 
+                            <option value="Estados Unidos">Estados Unidos</option> 
+                            <option value="Rusia">Rusia</option> 
+                            <option value="China">China</option> 
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="IP">Codigo IP</td>
+                    <td><input id="IP" type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">E-mail: </label></td>
+                    <td><input id="Email" type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Genro: </td>
+                    <td>
+                        <input type="radio" name="genero" value="Homre" required> Hombre
+                        <input type="radio" name="genero" value="Mujer" required> Mujer
+                        <input type="radio" name="genero" value="otro" required> Otro
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lenguaje: </td>
+                    <td>
+                        <input type="checkbox" name="Ingles" value="Ingles" required> Ingles
+                        <input type="checkbox" name="Español" value="Español" required> Español
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Acerca">Acerca: </label></td>
+                    <td>
+                        <textarea id="Acerca" placeholder="Comentarios" rows="10" cols="50" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><input type="submit" value="Enviar"></center></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

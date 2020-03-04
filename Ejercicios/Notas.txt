@@ -1,0 +1,40 @@
+etiquetas lo que esta dentro de <> todo lo que tenga, como renderear
+atributos dentro de las etiquetas todo lo que este dentro es una atributo tambien antes edl igual
+elementos todo lo que empieza y ermina dentro de una etiquieta toda la lina de codigo
+valores lo que esta dentro o despues del igual
+elementos que no tienen contenido se le dice elemnto vacio
+metadatos simbolos para la pagina web
+responsiva detecta el tamaño automaticamente de la pantalla y ajusta el tamaño del contenido
+HTML5 nuevo estandar, multiplatafomra, cell, tablet, PC, nacio en mayo 2011
+ -DOM la inetrpretacion del HTML
+HTML5 en celulares
+email arroba y punto en teclado
+tel teclaod de numeros
+date poner fecha
+
+articule <article> 
+hablar acerca de un tema
+aside <aside>
+Dentro del tema ver un punto en espefifico del articulo.
+(Enviar usuarios)
+<figure>
+<footer>
+seccion que va hsta el final de la pagian, pie de pagina para el documento
+<header> representa el contendio introductorio para los links de navegadores
+<nav> Va a haber links
+<mark> remarcar un texto en una lineal de texto
+<section> define una seccion dentro de un doscumento, junto con un contexto
+<div> crear pequeñas divisoines, no cementar contextos diferentes de textos.
+<time> Timepo
+-----------------------------------------
+stage:
+commit:
+commit al historal: agrga los cambios del proyecto, donde se mantendran guardados
+desarrollo de branches: branches nos permite de trabajar multiples caracteristicas en el paralelo bifurcando el proyecto
+merge: Unir dos secciones del trabajo
+$ git status ver que los cambios aun no se han guardadoy como esta el archivo
+$ git push guardar cambies en la nube
+$ git add guardar los cambios en la consola local
+$ git pull taer todos los cambios de la nube al local
+$ git branch que se esta trabajndo
+$ git checkout ir a archivo
